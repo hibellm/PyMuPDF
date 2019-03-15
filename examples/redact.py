@@ -21,7 +21,7 @@ def mark_word(page, text):
 
 fname = sys.argv[1]                    # filename
 #text = sys.argv[2]                     # search string
-text=['Marcus','Hibell','Lorem','Hampden-Sydney','College','loves']
+text=['mike','rerer','Lorem','Hampden-Sydney','College','loves']
 doc = fitz.open(fname)
 
 doc.setMetadata({})                    # clear metadata
